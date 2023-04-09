@@ -26,14 +26,13 @@ my social media:
 *My Portfolio:* https://mohamed-montaser1.github.io/my_awesome_portfolio/dist
 
 
-Nice To See Want To Know More About Me 😀
+I'm Happy To See You Want To Know More About Me... Thanks 😀
 `;
 
 client.on("message", (message) => {
   if (message.body === "--info") {
     message.reply(custom_message);
   }
-  console.log(message);
 });
 
 client.initialize();
